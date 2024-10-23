@@ -1,1 +1,143 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(79, 74, 59);
+    text-align: center;
+    
+}
 
+header {
+
+    background-image: url("header.png");
+    height: 640px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 0,5px;
+    color: antiquewhite;
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: antiquewhite;
+    font-family: 'Abril Fatface', serif;
+
+
+}
+
+h3 {
+    font-family: 'Zeyada', cursive;
+    font-style: italic;
+    color: antiquewhite;
+    margin: 12px;
+    text-align: right;
+   font-size: 40px;
+}
+
+
+img {
+    margin-left: 5px; 
+    width: 300px; 
+}
+
+
+
+.header-with-name {
+    line-height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.twobox-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-with-image {
+    height: 360px;
+    width: 600px;
+    background-image: url("vaxtiqapp.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    background-position: center;
+
+}
+
+.box-without-image {
+    background-color: rgb(36, 35, 35);
+    height: 360px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main-bodyn {
+    background-color: #f4f3e3;
+    width: 1200px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.github-article {
+    width:1064px;
+    text-align: center;
+
+}
+
+.githubhead {
+     color: rgb(36, 35, 35);
+}
+
+hr.line {
+    border: 2px solid rgb(51, 75, 51);
+    border-radius: 5px;
+    width: 135px;
+}
+
+
+
+
+footer {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+p.end-text {
+    color: antiquewhite;
+}
+
+p.heart {
+    color:rgb(228, 79, 79);
+}
